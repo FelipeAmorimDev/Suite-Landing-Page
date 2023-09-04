@@ -52,10 +52,15 @@ img{
 }
 
 .header__hero{
-  position: absolute;
+  position: relative;
   width: 350px;
   height: 600px;
-  left: 470px;
+  
+}
+
+.header__picture{
+  position: relative;
+    right: 285px;
 }
 
 .header__content{
@@ -82,6 +87,12 @@ img{
   display: grid;
   justify-items: start;
   align-content: center;
+}
+
+.header__picture{
+  position: absolute;
+ 
+ 
 }
 
 .header__paragrafo{
@@ -122,6 +133,11 @@ img{
   align-content: center;
   
  }
+ .header__picture{
+  position: absolute;
+  right: 0;
+}
+
 
  .header__hero{
   left: unset;
@@ -150,12 +166,18 @@ img{
     text-align: center;
   }
 
-  .header__hero{
-    position: relative;
+  .header__picture{
+    position: static;
     width: auto;
     height: auto;
     margin-top: 56px;
   }
+
+  .header__hero{
+    width: 100%;
+    height: 100%;
+  }
+
 
   .header__paragrafo{
     max-width: 38ch;
