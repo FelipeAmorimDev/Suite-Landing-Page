@@ -41,6 +41,14 @@ img{
   padding: 12px 23px;
   border: 1px solid var(--cor-1);
   border-radius: 4px;
+  letter-spacing: -0.16px;
+  transition: .3s;
+}
+
+.header__requestbtn:hover{
+ background-color: var(--cor-1);
+ color: var(--cor-4);
+
 }
 
 .header__hero{
@@ -86,6 +94,13 @@ img{
   background-color: var(--cor-1);
   border-radius: 4px;
   display: inline-block;
+  transition: .3s;
+  
+}
+
+.header-description__requestbtn:hover{
+  background: linear-gradient(160deg, #A060FF 0%, #CB30E3 60%, #FFA84E 90%);
+
 }
 
 .dados__legenda{
