@@ -26,7 +26,7 @@ img{
 .header__container{
   max-width: 1110px;
   margin: 0 auto;
-  height: 770px;
+  padding: 0px 20px;
   
 }
 
@@ -54,6 +54,7 @@ img{
   display: grid;
   grid-template-columns: auto 1fr;
   position: relative;
+  
    
 }
 
@@ -89,4 +90,64 @@ img{
 
 .dados__legenda{
   letter-spacing: 2px;
+}
+
+@media(max-width:1080px){
+
+  .header__container{
+    padding: 0px 39px;
+  }
+
+  .header__description{
+    height: 482px;
+  }
+  
+ .header__content{
+  grid-template-columns: auto;
+  align-content: center;
+  
+ }
+
+ .header__hero{
+  left: unset;
+  right: 0px;
+  width: 281px;
+  height: 482px;
+ }
+
+ .header__dados{
+  flex-direction: row;
+  margin: 88px 0px 0px;
+ }
+
+ .header__description h1{
+    max-width: 15ch;
+ }
+}
+
+@media (max-width:745px){
+  .header__container{
+    padding: 0px 15px;
+    
+  }
+  .header__dados{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header__hero{
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-top: 56px;
+  }
+
+  .header__paragrafo{
+    max-width: 38ch;
+  }
+
+ .header__description{
+  justify-content: center;
+  height: 326px;
+ }
 }

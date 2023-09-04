@@ -53,3 +53,21 @@
 .header__title-r{
   font-weight: 400;
 }
+
+@media (max-width:1060px){
+  .heading-xl{
+    font-size: 56px;
+  }
+  .body-text{
+    font-size: 16px;
+  }
+}
+
+@media (max-width:745px){
+  .heading-xl{
+    font-size: 38px;
+  }
+  .body-text{
+    font-size: 16px;
+  }
+}
