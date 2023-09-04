@@ -1,0 +1,92 @@
+@import url("./fontes.css");
+@import url("./cores.css");
+
+body{
+  margin: 0px;
+}
+
+h1,h2,h3,h4,p{
+  margin: 0px;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+.header__bg{
+  background-color: var(--cor-4);
+  padding-bottom: 154px;
+}
+
+.header__container{
+  max-width: 1110px;
+  margin: 0 auto;
+  height: 770px;
+  
+}
+
+.header__top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0px 67px;
+}
+
+.header__requestbtn{
+  padding: 12px 23px;
+  border: 1px solid var(--cor-1);
+  border-radius: 4px;
+}
+
+.header__hero{
+  position: absolute;
+  width: 350px;
+  height: 600px;
+  left: 470px;
+}
+
+.header__content{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  position: relative;
+   
+}
+
+.header__dados{
+  margin-left: 285px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 63px;
+}
+
+.header__description{
+  max-width:635px;
+  height: 600px;;
+  position: relative;
+  z-index: 1;
+  display: grid;
+  justify-items: start;
+  align-content: center;
+}
+
+.header__paragrafo{
+  max-width: 36ch;
+  margin: 40px 0px 52px;
+}
+
+.header-description__requestbtn{
+  padding: 15px 32px;
+  background-color: var(--cor-1);
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.dados__legenda{
+  letter-spacing: 2px;
+}

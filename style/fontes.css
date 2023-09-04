@@ -1,0 +1,55 @@
+.heading-xl{
+  font-family: 'Epilogue', sans-serif;
+  font-size: 72px;
+  letter-spacing: -1px;
+  line-height: 1.08;
+  font-weight: 700;
+}
+
+.heading-l{
+  font-family: 'Epilogue', sans-serif;
+  font-size: 48px;
+  letter-spacing: -0.5px;
+  line-height: 1.16;
+}
+
+.heading-m{
+  font-family: 'Epilogue', sans-serif;
+  font-size: 18px;
+  letter-spacing: -0.2px;
+  line-height: 1.77;
+  font-weight: 700;
+}
+
+.heading-s{
+  font-family: 'Epilogue', sans-serif;
+  font-size: 16px;
+  letter-spacing: -2.5px;
+  line-height: 1.625;
+  font-weight: 700;
+}
+
+.quote{
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.75;
+}
+
+.body-text{
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.77;
+}
+
+.footer-text{
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 2.13;
+}
+
+.header__title-r{
+  font-weight: 400;
+}
