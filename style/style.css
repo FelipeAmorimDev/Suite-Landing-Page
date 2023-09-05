@@ -148,7 +148,7 @@ img{
 
  .header__dados{
   flex-direction: row;
-  margin: 88px 0px 0px;
+  margin: 88px 0px 92px;
  }
 
  .header__description h1{
@@ -187,4 +187,136 @@ img{
   justify-content: center;
   height: 326px;
  }
+}
+
+/* expecialista */
+
+.opiniao-expecialista__bg{
+  background-color: var(--cor-3);
+}
+
+.opiniao-expecialista__container{
+  max-width: 1110px;
+  margin: 0 auto;
+  background-color: var(--cor-1);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 88px 125px 88px 112px;
+  border-radius: 20px;
+  justify-items: end;
+  align-items: top;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.opiniao-expecialista__title{
+  font-weight: 400;
+}
+
+.opiniao-expecialista__title span{
+  font-weight: 700;
+}
+
+.opiniao-expecialista__foto{
+  position: absolute;
+  left: 112px;
+  top: -55px;
+}
+
+.opiniao-expecialista__foto img{
+  width: 375px;
+  height: 600px;
+}
+
+.opiniao-expecialista__description{
+  max-width: 350px;
+}
+
+.opiniao-expecialista__title{
+  margin-bottom: 40px;
+}
+
+.opiniao-expecialista__text{
+  margin-bottom: 40px;
+}
+
+.opiniao-expecialista__autor span{
+  display: block;
+}
+
+.opiniao-expecialista__cargo{
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.opiniao-expecialista__pattern{
+  position: relative;
+  top: 73px;
+  left:33px;
+}
+
+@media(max-width:1080px){
+.opiniao-expecialista__container{
+  grid-template-columns: 1fr;
+  justify-items: center;
+  min-height: calc(684px);
+  padding: 0px 58px 64px;
+}
+
+.opiniao-expecialista__pattern{
+  align-self: start;
+  position: absolute;
+  left: unset;
+  right: unset;
+  left:50%;
+  top: 36%;
+  transform: translateX(-50%);
+  margin-bottom: 37px;
+  
+
+}
+
+.opiniao-expecialista__description{
+  align-self: end;
+  text-align: center;
+  max-width: 100%;
+  margin-top: 37px;
+}
+
+.opiniao-expecialista__foto{
+  left: 50%;
+  top: -181px;
+  transform: translateX(-50%);
+}
+
+.opiniao-expecialista__foto img{
+  max-width: 252px;
+  height: 402px;
+}
+
+
+}
+
+@media (max-width:745px){
+  .opiniao-expecialista__container{
+    grid-template-columns: 1fr;
+    justify-items: center;
+    min-height: 748px;
+    padding: 0px 16px 64px;
+   
+   
+  }
+  .opiniao-expecialista__pattern{
+    margin: 0;
+  }
+}
+
+@media (max-width:500px){
+  .opiniao-expecialista__pattern{
+    position: static;
+    transform: unset;
+    padding-top: 261px;
+    z-index: 1;
+    
+}
 }
