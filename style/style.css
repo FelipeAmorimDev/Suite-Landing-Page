@@ -1,43 +1,47 @@
 @import url("./fontes.css");
 @import url("./cores.css");
 
-body{
+body {
   margin: 0px;
 }
 
-h1,h2,h3,h4,p{
+h1,
+h2,
+h3,
+h4,
+p {
   margin: 0px;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-img{
+img {
   max-width: 100%;
   display: block;
 }
 
-.header__bg{
+.header__bg {
   background-color: var(--cor-4);
   padding-bottom: 154px;
 }
 
-.header__container{
+.header__container {
   max-width: 1110px;
   margin: 0 auto;
   padding: 0px 20px;
-  
+
 }
 
-.header__top{
+.header__top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 50px 0px 67px;
 }
 
-.header__requestbtn{
+.header__requestbtn {
   padding: 12px 23px;
   border: 1px solid var(--cor-1);
   border-radius: 4px;
@@ -45,33 +49,33 @@ img{
   transition: .3s;
 }
 
-.header__requestbtn:hover{
- background-color: var(--cor-1);
- color: var(--cor-4);
+.header__requestbtn:hover {
+  background-color: var(--cor-1);
+  color: var(--cor-4);
 
 }
 
-.header__hero{
+.header__hero {
   position: relative;
   width: 350px;
   height: 600px;
-  
+
 }
 
-.header__picture{
+.header__picture {
   position: relative;
-    right: 285px;
+  right: 285px;
 }
 
-.header__content{
+.header__content {
   display: grid;
   grid-template-columns: auto 1fr;
   position: relative;
-  
-   
+
+
 }
 
-.header__dados{
+.header__dados {
   margin-left: 285px;
   display: flex;
   flex-direction: column;
@@ -79,9 +83,10 @@ img{
   gap: 63px;
 }
 
-.header__description{
-  max-width:635px;
-  height: 600px;;
+.header__description {
+  max-width: 635px;
+  height: 600px;
+  ;
   position: relative;
   z-index: 1;
   display: grid;
@@ -89,113 +94,117 @@ img{
   align-content: center;
 }
 
-.header__picture{
+.header__picture {
   position: absolute;
- 
- 
+
+
 }
 
-.header__paragrafo{
+.header__paragrafo {
   max-width: 36ch;
   margin: 40px 0px 52px;
 }
 
-.header-description__requestbtn{
+.header-description__requestbtn {
   padding: 15px 32px;
   background-color: var(--cor-1);
   border-radius: 4px;
   display: inline-block;
   transition: .3s;
-  
+
 }
 
-.header-description__requestbtn:hover{
+.header-description__requestbtn:hover {
   background: linear-gradient(160deg, #A060FF 0%, #CB30E3 60%, #FFA84E 90%);
 
 }
 
-.dados__legenda{
+.dados__legenda {
   letter-spacing: 2px;
 }
 
-@media(max-width:1080px){
+@media(max-width:1080px) {
 
-  .header__container{
+  .header__container {
     padding: 0px 39px;
   }
 
-  .header__description{
+  .header__description {
     height: 482px;
   }
-  
- .header__content{
-  grid-template-columns: auto;
-  align-content: center;
-  
- }
- .header__picture{
-  position: absolute;
-  right: 0;
-}
 
+  .header__content {
+    grid-template-columns: auto;
+    align-content: center;
 
- .header__hero{
-  left: unset;
-  right: 0px;
-  width: 281px;
-  height: 482px;
- }
-
- .header__dados{
-  flex-direction: row;
-  margin: 88px 0px 92px;
- }
-
- .header__description h1{
-    max-width: 15ch;
- }
-}
-
-@media (max-width:745px){
-  .header__container{
-    padding: 0px 15px;
-    
   }
-  .header__dados{
+
+  .header__picture {
+    position: absolute;
+    right: 0;
+  }
+
+
+  .header__hero {
+    left: unset;
+    right: 0px;
+    width: 281px;
+    height: 482px;
+  }
+
+  .header__dados {
+    flex-direction: row;
+    margin: 88px 0px 92px;
+  }
+
+  .header__description h1 {
+    max-width: 15ch;
+  }
+}
+
+@media (max-width:745px) {
+  .header__container {
+    padding: 0px 15px;
+
+  }
+
+  .header__dados {
     flex-direction: column;
     text-align: center;
   }
 
-  .header__picture{
+  .header__picture {
     position: static;
     width: auto;
     height: auto;
     margin-top: 56px;
   }
 
-  .header__hero{
+  .header__hero {
     width: 100%;
     height: 100%;
   }
 
 
-  .header__paragrafo{
+  .header__paragrafo {
     max-width: 38ch;
   }
 
- .header__description{
-  justify-content: center;
-  height: 326px;
- }
+  .header__description {
+    justify-content: center;
+    height: 326px;
+  }
 }
 
 /* expecialista */
 
-.opiniao-expecialista__bg{
-  background-color: var(--cor-3);
+.opiniao-expecialista__bg {
+  background: rgb(243, 237, 231);
+  background: linear-gradient(180deg, rgba(250, 248, 246, 1) 52%, rgba(243, 237, 231, 1) 52%);
+  padding: 0px 40px;
 }
 
-.opiniao-expecialista__container{
+.opiniao-expecialista__container {
   max-width: 1110px;
   margin: 0 auto;
   background-color: var(--cor-1);
@@ -207,116 +216,123 @@ img{
   align-items: top;
   position: relative;
   box-sizing: border-box;
+
 }
 
-.opiniao-expecialista__title{
+.opiniao-expecialista__title {
   font-weight: 400;
 }
 
-.opiniao-expecialista__title span{
+.opiniao-expecialista__title span {
   font-weight: 700;
 }
 
-.opiniao-expecialista__foto{
+.opiniao-expecialista__foto {
   position: absolute;
   left: 112px;
   top: -55px;
 }
 
-.opiniao-expecialista__foto img{
+.opiniao-expecialista__foto img {
   width: 375px;
   height: 600px;
 }
 
-.opiniao-expecialista__description{
+.opiniao-expecialista__description {
   max-width: 350px;
 }
 
-.opiniao-expecialista__title{
+.opiniao-expecialista__title {
   margin-bottom: 40px;
 }
 
-.opiniao-expecialista__text{
+.opiniao-expecialista__text {
   margin-bottom: 40px;
 }
 
-.opiniao-expecialista__autor span{
+.opiniao-expecialista__autor span {
   display: block;
 }
 
-.opiniao-expecialista__cargo{
+.opiniao-expecialista__cargo {
   font-weight: 400;
   letter-spacing: 2px;
 }
 
-.opiniao-expecialista__pattern{
+.opiniao-expecialista__pattern {
   position: relative;
   top: 73px;
-  left:33px;
+  left: 33px;
 }
 
-@media(max-width:1080px){
-.opiniao-expecialista__container{
-  grid-template-columns: 1fr;
-  justify-items: center;
-  min-height: calc(684px);
-  padding: 0px 58px 64px;
+@media(max-width:1080px) {
+  .opiniao-expecialista__container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    min-height: calc(684px);
+    padding: 0px 58px 64px;
+  }
+
+  .opiniao-expecialista__pattern {
+    align-self: start;
+    position: absolute;
+    left: unset;
+    right: unset;
+    left: 50%;
+    top: 36%;
+    transform: translateX(-50%);
+    margin-bottom: 37px;
+
+
+  }
+
+  .opiniao-expecialista__description {
+    align-self: end;
+    text-align: center;
+    max-width: 100%;
+    margin-top: 37px;
+  }
+
+  .opiniao-expecialista__foto {
+    left: 50%;
+    top: -181px;
+    transform: translateX(-50%);
+  }
+
+  .opiniao-expecialista__foto img {
+    max-width: 252px;
+    height: 402px;
+  }
+
+
 }
 
-.opiniao-expecialista__pattern{
-  align-self: start;
-  position: absolute;
-  left: unset;
-  right: unset;
-  left:50%;
-  top: 36%;
-  transform: translateX(-50%);
-  margin-bottom: 37px;
-  
+@media (max-width:745px) {
 
-}
+  .opiniao-expecialista__bg {
+    padding: 0px;
+  }
 
-.opiniao-expecialista__description{
-  align-self: end;
-  text-align: center;
-  max-width: 100%;
-  margin-top: 37px;
-}
-
-.opiniao-expecialista__foto{
-  left: 50%;
-  top: -181px;
-  transform: translateX(-50%);
-}
-
-.opiniao-expecialista__foto img{
-  max-width: 252px;
-  height: 402px;
-}
-
-
-}
-
-@media (max-width:745px){
-  .opiniao-expecialista__container{
+  .opiniao-expecialista__container {
     grid-template-columns: 1fr;
     justify-items: center;
     min-height: 748px;
     padding: 0px 16px 64px;
-   
-   
+
+
   }
-  .opiniao-expecialista__pattern{
+
+  .opiniao-expecialista__pattern {
     margin: 0;
   }
 }
 
-@media (max-width:500px){
-  .opiniao-expecialista__pattern{
+@media (max-width:500px) {
+  .opiniao-expecialista__pattern {
     position: static;
     transform: unset;
     padding-top: 261px;
     z-index: 1;
-    
-}
+
+  }
 }
