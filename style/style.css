@@ -100,6 +100,18 @@ ul{
   align-content: center;
 }
 
+.header__title::before{
+  content: "";
+  display: block;
+  position: relative;
+  top: -20px;
+  left: 289px;
+  width: 287px;
+  height: 36px;
+  background-image: url("../assets/pattern-curved-line-1.svg");
+  background-size: cover;
+}
+
 .header__picture {
   position: absolute;
 
@@ -166,6 +178,12 @@ ul{
   .header__description h1 {
     max-width: 15ch;
   }
+
+  .header__title::before{
+    left: 225px;
+    width: 231px;
+    height: 29px;
+  }
 }
 
 @media (max-width:745px) {
@@ -199,6 +217,12 @@ ul{
   .header__description {
     justify-content: center;
     height: 326px;
+  }
+
+  .header__title::before{
+    left: 150px;
+    width: 151px;
+    height: 19px;
   }
 }
 
@@ -237,6 +261,11 @@ ul{
   position: absolute;
   left: 112px;
   top: -55px;
+  background-image: url("../assets/pattern-blur.svg");
+  background-position: bottom center;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
 }
 
 .opiniao-expecialista__foto img {
@@ -303,6 +332,7 @@ ul{
     left: 50%;
     top: -181px;
     transform: translateX(-50%);
+    background-image: none;
   }
 
   .opiniao-expecialista__foto img {
@@ -367,5 +397,6 @@ ul{
  .footer__container{
   flex-direction: column;
   gap: 33px;
+  padding-top: 56px;
  }
 }

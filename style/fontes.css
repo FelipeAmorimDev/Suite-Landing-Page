@@ -54,7 +54,7 @@
   font-weight: 400;
 }
 
-@media (max-width:1060px){
+@media (max-width:1080px){
   .heading-xl{
     font-size: 56px;
   }
